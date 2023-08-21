@@ -1,0 +1,33 @@
+[dev]
+description = "测试环境配置"
+[dev.mysql.test]
+maxconnections = 6
+mincached = 0
+maxcached = 3
+maxshared = 0
+blocking = true
+setsession = []
+ping = 1
+host = "127.0.0.1"
+port = 3306
+user = "admin"
+passwd = "admin"
+database = "test"
+charset = "utf8"
+
+[online]
+description = "正式环境配置"
+[online.mysql.test]
+maxconnections = 6
+mincached = 0
+maxcached = 3
+maxshared = 0
+blocking = true
+setsession = []
+ping = 1
+host = "127.0.0.1"
+port = 3306
+user = "admin"
+passwd = "admin"
+database = "test"
+charset = "utf8"

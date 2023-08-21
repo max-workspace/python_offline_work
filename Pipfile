@@ -1,0 +1,17 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = false
+name = "pip_conf_index_global"
+
+[packages]
+apscheduler = "*"
+black = "*"
+loguru = "*"
+pymysql = "*"
+dbutils = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.0"
